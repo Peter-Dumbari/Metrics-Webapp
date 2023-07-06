@@ -90,7 +90,7 @@ Install this project with:
 Example command:
 
 ```sh
-  cd Rocket-Group-Project-
+  cd metrics_webapp-
   no installation required
 ```
 
