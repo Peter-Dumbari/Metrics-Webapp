@@ -1,15 +1,20 @@
 import React from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
+  const location = useLocation();
+  const isHomePage = location.pathname === '/'; // Change the condition based on your home page route
+
   return (
     <nav className="navbar">
       <div className="navbar_container">
         <div className="navigator">
-          <Link to="/">
-            <i className="fa-solid fa-chevron-left" />
-          </Link>
+          {!isHomePage && (
+            <Link to="/">
+              <i className="fa-solid fa-chevron-left" />
+            </Link>
+          )}
         </div>
         <div className="currency_name">
           <h1>Currency Rates</h1>

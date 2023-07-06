@@ -13,7 +13,7 @@ function Search() {
     <input
       type="search"
       onChange={handleSearch}
-      placeholder="Enter Country"
+      placeholder="Enter Currency"
       className="searchfield"
     />
   );
