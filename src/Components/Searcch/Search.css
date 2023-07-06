@@ -1,0 +1,17 @@
+.searchfield {
+  border: none;
+  padding: 10px;
+  outline: none;
+  color: var(--primary);
+  width: 90%;
+}
+
+.searchfield:focus {
+  border: none;
+  outline: none;
+}
+
+.searchfield::placeholder {
+  color: var(--primary);
+  font-weight: 500;
+}

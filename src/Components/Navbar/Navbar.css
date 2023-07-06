@@ -1,0 +1,42 @@
+
+.navbar {
+  background-color: var(--primary);
+  width: 100%;
+  z-index: 100;
+  color: var(--white);
+  position: fixed;
+  top: 0;
+}
+
+.navbar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 5px 20px 5px 20px;
+}
+
+.currency_name h1 {
+  font-weight: 500;
+}
+
+.navigator {
+  cursor: pointer;
+}
+
+.navbar_container a {
+  color: var(--white);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navbar_container .menu {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+
+.fa-microphone,
+.fa-gear {
+  cursor: pointer;
+}
