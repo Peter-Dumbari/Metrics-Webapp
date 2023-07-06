@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Currencies matches the snapshot 1`] = `
+<div
+  class="currencysection_container"
+>
+  <div
+    class="header_container"
+  >
+    <h3
+      class="header"
+    >
+      Global Currencies
+    </h3>
+  </div>
+  <div
+    class="currencies"
+  />
+</div>
+`;

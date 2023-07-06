@@ -1,0 +1,22 @@
+.currencysection_container {
+  padding: 0;
+  background-color: var(--primary);
+  position: relative;
+}
+
+.header_container {
+  background-color: rgba(0, 0, 0, 0.225);
+  padding: 1px 10px;
+  color: var(--white);
+}
+
+.header {
+  font-weight: 500;
+}
+
+.currencies {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 2px;
+}

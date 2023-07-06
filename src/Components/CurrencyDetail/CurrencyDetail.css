@@ -1,0 +1,70 @@
+.currency_detail_container {
+  margin-top: 5rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.detail_inner_bg {
+  background: url("../../Assets/Images/pngwing.com.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center left 25%;
+}
+
+.detail_herosection_items {
+  background: linear-gradient(to right, #000000d4 5%, var(--primary) 90%);
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  color: var(--white);
+}
+
+.contents {
+  width: 60%;
+}
+
+.contents .exchange_rate_note {
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.country_currency {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.contents .exchange_rate_note .currency {
+  padding: 0 5px 0 5px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.rate_header {
+  background-color: rgba(0, 0, 0, 0.087);
+  padding: 10px;
+}
+
+.rate_header h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.rates_container {
+  background-color: var(--primary);
+}
+
+.detail_card_container {
+  background-color: rgba(0, 0, 0, 0.179);
+}
+
+.detail_card_container:nth-child(odd) {
+  background-color: #bd13130b;
+}
