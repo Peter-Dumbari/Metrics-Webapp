@@ -75,6 +75,14 @@ Example commands:
   git clone (https://github.com/Peter-Dumbari/Metrics-Webapp.git)
 ```
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://currency-exchange-rates-nrj8.onrender.com/)
+
+## 🎥 Live Video <a name="live-video"></a>
+
+- [Live Video Link](https://www.loom.com/share/ae007d26e93b44a690b14b0fcd9bb4b9)
+
 ### Install
 
 Install this project with:
@@ -161,6 +169,8 @@ If you like this project dont hesitate to contact us
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I will give credit to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the design inspiration, microverse and coding partners.
 
 we would like to thank Microverse for their continued support
 

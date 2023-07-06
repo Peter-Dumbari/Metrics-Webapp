@@ -3,7 +3,7 @@ const config = {
   testEnvironment: 'jsdom',
   transformIgnorePatterns: ['node_modules/(?!axios)'],
   moduleNameMapper: {
-    '\\.(css|less|scss|png)$': 'identity-obj-proxy',
+    '\\.(css|less|scss|png|svg)$': 'identity-obj-proxy',
   },
 
   // Specify the path to your Babel configuration file

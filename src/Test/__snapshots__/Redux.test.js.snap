@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`currencySlice fetches currencies and updates state correctly 1`] = `
+Array [
+  Object {
+    "meta": Object {
+      "arg": undefined,
+      "requestId": "YhIdzN9rjMNcexdAspoFg",
+      "requestStatus": "pending",
+    },
+    "payload": undefined,
+    "type": "currency/fetchCurrencies/pending",
+  },
+  Object {
+    "error": Object {
+      "message": "Cannot read properties of undefined (reading 'data')",
+      "name": "TypeError",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'data')
+    at call (/Users/tams-technology/metrics_webapp/src/Redux/CurrencySlice.js:16:21)
+    at tryCatch (/Users/tams-technology/metrics_webapp/src/Redux/CurrencySlice.js:2:1)
+    at Generator._invoke (/Users/tams-technology/metrics_webapp/src/Redux/CurrencySlice.js:2:1)
+    at Generator.next (/Users/tams-technology/metrics_webapp/src/Redux/CurrencySlice.js:2:1)
+    at asyncGeneratorStep (/Users/tams-technology/metrics_webapp/src/Redux/CurrencySlice.js:2:1)
+    at _next (/Users/tams-technology/metrics_webapp/src/Redux/CurrencySlice.js:2:1)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    },
+    "meta": Object {
+      "aborted": false,
+      "arg": undefined,
+      "condition": false,
+      "rejectedWithValue": false,
+      "requestId": "YhIdzN9rjMNcexdAspoFg",
+      "requestStatus": "rejected",
+    },
+    "payload": undefined,
+    "type": "currency/fetchCurrencies/rejected",
+  },
+]
+`;
+
+exports[`currencySlice fetches currency details and updates state correctly 1`] = `
+Array [
+  Object {
+    "meta": Object {
+      "arg": "USD",
+      "requestId": "uB8V3CZB3GTApa6eDCj51",
+      "requestStatus": "pending",
+    },
+    "payload": undefined,
+    "type": "currency/fetchCurrencyDetails/pending",
+  },
+  Object {
+    "error": Object {
+      "message": "Cannot read properties of undefined (reading 'data')",
+      "name": "TypeError",
+      "stack": "TypeError: Cannot read properties of undefined (reading 'data')
+    at call (/Users/tams-technology/metrics_webapp/src/Redux/CurrencySlice.js:24:21)
+    at tryCatch (/Users/tams-technology/metrics_webapp/src/Redux/CurrencySlice.js:2:1)
+    at Generator._invoke (/Users/tams-technology/metrics_webapp/src/Redux/CurrencySlice.js:2:1)
+    at Generator.next (/Users/tams-technology/metrics_webapp/src/Redux/CurrencySlice.js:2:1)
+    at asyncGeneratorStep (/Users/tams-technology/metrics_webapp/src/Redux/CurrencySlice.js:2:1)
+    at _next (/Users/tams-technology/metrics_webapp/src/Redux/CurrencySlice.js:2:1)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)",
+    },
+    "meta": Object {
+      "aborted": false,
+      "arg": "USD",
+      "condition": false,
+      "rejectedWithValue": false,
+      "requestId": "uB8V3CZB3GTApa6eDCj51",
+      "requestStatus": "rejected",
+    },
+    "payload": undefined,
+    "type": "currency/fetchCurrencyDetails/rejected",
+  },
+]
+`;

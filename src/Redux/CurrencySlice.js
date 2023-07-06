@@ -33,6 +33,7 @@ const currencySlice = createSlice({
       const filterValue = action.payload.toLowerCase();
       // eslint-disable-next-line
       state.filterCurrency = Object.entries(state.currency).filter((currency) => currency[1].toLowerCase().includes(filterValue),);
+      console.log(state.filterCurrency);
     },
   },
   extraReducers: {
